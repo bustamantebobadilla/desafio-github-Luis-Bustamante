@@ -7,6 +7,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     background-color:#032656;
+    background-image: linear-gradient(to left, #759fda , #032656 );
     text-align: center;
 }
 .logo-inicio{
@@ -15,6 +16,11 @@
     left: 10px;
     width: 200px;
     height: 200px;
+}
+.logo-inicio:hover{
+    width: 180px;
+    height: 180px;
+    transition: all 1s;
 }
 .display{
     display: inline-block;
@@ -31,12 +37,14 @@
 }
 .body{
     background-color: #032656;
+    background-image: linear-gradient(to left, #759fda , #032656 );
 }
 h2{
     font-size: 35px;
 }
 li a:hover {
 color: white;
+transition: all 1s;
     }
 .portada{
     width: 100%;
@@ -46,6 +54,7 @@ color: white;
 nav ul li{
     display: inline-block;
     background-color: white;
+    transform: skew(-20deg);
 }
 nav p{
     text-decoration:underline
@@ -68,6 +77,10 @@ div button{
     background-color: white;
     color: darkblue;
 }
+div button:hover{
+    transition: all 1s;
+    font-size: 30px;
+}
 .contacto{
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -83,10 +96,20 @@ div form input{
     font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+div form input:hover{
+    transition: all 1s;
+    width: 320px;
+    height: 40px;
+}
 div form textarea{
     width: 500px;
     height: 200px;
     font-size: 30px;
+}
+div form textarea:focus{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: blue;
 }
 .pie{
     padding-top: 50px;
