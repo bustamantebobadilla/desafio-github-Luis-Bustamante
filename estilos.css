@@ -255,78 +255,78 @@ section#parrafo3{
     height: 100px;
 }
 
-@media only screen and (min-width:320px) and (max-width: 550px){
+@media screen and (max-width: 1350px){
     .menu{
-        font-size: 12px;
-    }
-    .titulo{
         font-size: 25px;
+        }
+    .titulo{
+        font-size: 40px;
         padding-top: 20px;
-        padding-bottom: 20px;
+        padding-bottom: 30px;
     }
     .logo-inicio{
-        height: 80px;
-        width:  80px;
-        padding-top: 10px;
+        padding-top: 70px;
+        width: 180px;
+        height: 180px;
     }
     .portada{
         padding-top:10px;
-        width: 220px;
+        width: 600px;
         padding-left:80px;
     }
     nav p{
-        font-size: 15px;
+        font-size: 25px;
         justify-content: center;
+        padding-bottom: 0px;
     }
     h2{
-        font-size: 15px;
+        font-size: 30px;
         padding-left: 30px;
-        padding-top: 5px;
+        padding-top: 0px;
     }
     .servicios-imagen1{
-        width: 300px;
+        width: 800px;
         padding-top: 5px;
     }
     div button{
-        font-size: 15px;
-        width: 250px;
-        height: 20px;
-        display: block;
-        align-items: center;
+        font-size: 25px;
+        width: 200px;
+        height: 60px;
+        margin-top: 20px;
     }
     .contacto{
-        font-size: 20px;
+        font-size: 25px;
     }
     div form input{
-        font-size: 15px;
-        width: 150px;
-        height: 15px;
+        font-size: 25px;
+        width: 250px;
+        height: 25px;
     }
     div form label{
-        font-size: 15px;
+        font-size: 25px;
     }
     div form textarea{
-        font-size: 15px;
-        height: 100px;
-        width: 200px;
+        font-size: 25px;
+        height: 200px;
+        width: 400px;
     }
     footer textarea{
-        height: 120px;
-        width: 200px;
-        font-size: 12px;
+        height: 100px;
+        width: 700px;
+        font-size: 20px;
         text-align: center;
     }
     .nosotros-p1{
-    padding-top: 20px;
-    font-size: 20px;
-    padding-left: 100px;
-    }  
+        padding-top: 10px;
+        font-size: 30px;
+        padding-left: 200px;
+        }  
     #nosotrosgrid{
-        font-size: 20px;
+        font-size: 30px;
         display: grid;
         grid-template-areas:
             "nosotrosimg parrafo1"
-            "parrafo2 parrafo2"
+            "nosotrosimg parrafo2"
             "parrafo3 parrafo3";
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
@@ -338,7 +338,7 @@ section#parrafo3{
         width: 90%;
         height: 50%;
         padding-left: 5%;
-    padding-top: 30%;
+        padding-top: 30%;
     }
     section#parrafo1{
         grid-area: parrafo1;
@@ -349,58 +349,32 @@ section#parrafo3{
     section#parrafo3{
         grid-area: parrafo3;
     }
-    .metodo-imagen{
-        width: 100%;
+    .servicios-imagen{
+        width: 70%;
         height: auto;
-        padding-top: 180px;
     }
-    .div-metodo{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
+    .div-contacto{
+        padding-top: 100px;
     }
-    .metodo-clases{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 20px;
-        color: white;
-        justify-content: center;
-        padding-left: 5%;
+    .agendar-parrafo{
+        padding-top: 20px;
+        padding-left: 200px;
     }
-    .metodo-tecnologias{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 20px;
-        color: white;
-        justify-content: center;
-        padding-top: 60px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .clases-imagen{
-        width: 300px;
-        height: 300px;
-        padding-left: 10%;
-        }
-    .tecnologias-metodo{
-        width: 300px;
-        height: 300px;
-        padding-left: 10px;
+    .agendar-imagen{
+        align-items: flex-start;
+        padding-left: 0%;
         padding-top: 120px;
     }
-    .servicios-imagen{
-        padding-left: 30%;
-        width: 80%;
-        height: auto;
-    }
-    .div-servicios{
-        font-size: auto;
-        padding-left: 150px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+    .agendar-facebook{
+        align-items: flex-end;
+        padding-right:100px;
+        padding-top: 100px;
+        height: 200px;
+        width: 200px;
     }
 }
 
-@media only screen and (min-width:551px)and (max-width: 900px){
+@media screen and (max-width: 900px){
     .menu{
         font-size: 22px;
         }
@@ -562,78 +536,78 @@ section#parrafo3{
     }
 }
 
-@media only screen and (min-width:901px) and (max-width: 1350px){
+@media screen and (max-width: 550px){
     .menu{
-        font-size: 25px;
-        }
+        font-size: 12px;
+    }
     .titulo{
-        font-size: 40px;
+        font-size: 25px;
         padding-top: 20px;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
     }
     .logo-inicio{
-        padding-top: 70px;
-        width: 180px;
-        height: 180px;
+        height: 80px;
+        width:  80px;
+        padding-top: 10px;
     }
     .portada{
         padding-top:10px;
-        width: 600px;
+        width: 220px;
         padding-left:80px;
     }
     nav p{
-        font-size: 25px;
+        font-size: 15px;
         justify-content: center;
-        padding-bottom: 0px;
     }
     h2{
-        font-size: 30px;
+        font-size: 15px;
         padding-left: 30px;
-        padding-top: 0px;
+        padding-top: 5px;
     }
     .servicios-imagen1{
-        width: 800px;
+        width: 300px;
         padding-top: 5px;
     }
     div button{
-        font-size: 25px;
-        width: 200px;
-        height: 60px;
-        margin-top: 20px;
+        font-size: 15px;
+        width: 250px;
+        height: 20px;
+        display: block;
+        align-items: center;
     }
     .contacto{
-        font-size: 25px;
+        font-size: 20px;
     }
     div form input{
-        font-size: 25px;
-        width: 250px;
-        height: 25px;
+        font-size: 15px;
+        width: 150px;
+        height: 15px;
     }
     div form label{
-        font-size: 25px;
+        font-size: 15px;
     }
     div form textarea{
-        font-size: 25px;
-        height: 200px;
-        width: 400px;
+        font-size: 15px;
+        height: 100px;
+        width: 200px;
     }
     footer textarea{
-        height: 100px;
-        width: 700px;
-        font-size: 20px;
+        height: 120px;
+        width: 200px;
+        font-size: 12px;
         text-align: center;
     }
     .nosotros-p1{
-        padding-top: 10px;
-        font-size: 30px;
-        padding-left: 200px;
-        }  
+    padding-top: 20px;
+    font-size: 20px;
+    padding-left: 100px;
+    }  
     #nosotrosgrid{
-        font-size: 30px;
+        font-size: 20px;
         display: grid;
         grid-template-areas:
             "nosotrosimg parrafo1"
-            "nosotrosimg parrafo2"
+            "parrafo2 parrafo2"
             "parrafo3 parrafo3";
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
@@ -645,7 +619,7 @@ section#parrafo3{
         width: 90%;
         height: 50%;
         padding-left: 5%;
-        padding-top: 30%;
+    padding-top: 30%;
     }
     section#parrafo1{
         grid-area: parrafo1;
@@ -656,27 +630,53 @@ section#parrafo3{
     section#parrafo3{
         grid-area: parrafo3;
     }
-    .servicios-imagen{
-        width: 70%;
+    .metodo-imagen{
+        width: 100%;
         height: auto;
+        padding-top: 180px;
     }
-    .div-contacto{
-        padding-top: 100px;
+    .div-metodo{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
     }
-    .agendar-parrafo{
-        padding-top: 20px;
-        padding-left: 200px;
+    .metodo-clases{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        color: white;
+        justify-content: center;
+        padding-left: 5%;
     }
-    .agendar-imagen{
-        align-items: flex-start;
-        padding-left: 0%;
+    .metodo-tecnologias{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        color: white;
+        justify-content: center;
+        padding-top: 60px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .clases-imagen{
+        width: 300px;
+        height: 300px;
+        padding-left: 10%;
+        }
+    .tecnologias-metodo{
+        width: 300px;
+        height: 300px;
+        padding-left: 10px;
         padding-top: 120px;
     }
-    .agendar-facebook{
-        align-items: flex-end;
-        padding-right:100px;
-        padding-top: 100px;
-        height: 200px;
-        width: 200px;
+    .servicios-imagen{
+        padding-left: 30%;
+        width: 80%;
+        height: auto;
+    }
+    .div-servicios{
+        font-size: auto;
+        padding-left: 150px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
     }
 }
